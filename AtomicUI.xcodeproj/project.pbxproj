@@ -13,6 +13,7 @@
 		9D80D57E289E4A52008DE598 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D80D57D289E4A52008DE598 /* Preview Assets.xcassets */; };
 		9D80D588289E5671008DE598 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D80D587289E5671008DE598 /* Color.swift */; };
 		9D80D58A289E5969008DE598 /* AtomicUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D80D589289E5969008DE598 /* AtomicUI.swift */; };
+		9D80D58C289E68A9008DE598 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D80D58B289E68A9008DE598 /* Font.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -23,6 +24,7 @@
 		9D80D57D289E4A52008DE598 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
 		9D80D587289E5671008DE598 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		9D80D589289E5969008DE598 /* AtomicUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomicUI.swift; sourceTree = "<group>"; };
+		9D80D58B289E68A9008DE598 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -85,6 +87,7 @@
 			isa = PBXGroup;
 			children = (
 				9D80D587289E5671008DE598 /* Color.swift */,
+				9D80D58B289E68A9008DE598 /* Font.swift */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -161,6 +164,7 @@
 			files = (
 				9D80D58A289E5969008DE598 /* AtomicUI.swift in Sources */,
 				9D80D579289E4A50008DE598 /* ContentView.swift in Sources */,
+				9D80D58C289E68A9008DE598 /* Font.swift in Sources */,
 				9D80D577289E4A50008DE598 /* AtomicUIApp.swift in Sources */,
 				9D80D588289E5671008DE598 /* Color.swift in Sources */,
 			);
