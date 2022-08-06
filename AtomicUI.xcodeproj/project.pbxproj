@@ -14,6 +14,8 @@
 		9D80D588289E5671008DE598 /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D80D587289E5671008DE598 /* Color.swift */; };
 		9D80D58A289E5969008DE598 /* AtomicUI.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D80D589289E5969008DE598 /* AtomicUI.swift */; };
 		9D80D58C289E68A9008DE598 /* Font.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D80D58B289E68A9008DE598 /* Font.swift */; };
+		9D80D58E289E89D4008DE598 /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D80D58D289E89D4008DE598 /* Icon.swift */; };
+		9D80D591289E8EE8008DE598 /* Icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D80D590289E8EE8008DE598 /* Icons.xcassets */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -25,6 +27,8 @@
 		9D80D587289E5671008DE598 /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
 		9D80D589289E5969008DE598 /* AtomicUI.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomicUI.swift; sourceTree = "<group>"; };
 		9D80D58B289E68A9008DE598 /* Font.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Font.swift; sourceTree = "<group>"; };
+		9D80D58D289E89D4008DE598 /* Icon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
+		9D80D590289E8EE8008DE598 /* Icons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Icons.xcassets; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +82,7 @@
 			isa = PBXGroup;
 			children = (
 				9D80D589289E5969008DE598 /* AtomicUI.swift */,
+				9D80D58F289E8EC8008DE598 /* Assets */,
 				9D80D586289E565C008DE598 /* Foundation */,
 			);
 			path = DesignSystem;
@@ -88,8 +93,17 @@
 			children = (
 				9D80D587289E5671008DE598 /* Color.swift */,
 				9D80D58B289E68A9008DE598 /* Font.swift */,
+				9D80D58D289E89D4008DE598 /* Icon.swift */,
 			);
 			path = Foundation;
+			sourceTree = "<group>";
+		};
+		9D80D58F289E8EC8008DE598 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				9D80D590289E8EE8008DE598 /* Icons.xcassets */,
+			);
+			path = Assets;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -151,6 +165,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9D80D57E289E4A52008DE598 /* Preview Assets.xcassets in Resources */,
+				9D80D591289E8EE8008DE598 /* Icons.xcassets in Resources */,
 				9D80D57B289E4A52008DE598 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -162,6 +177,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9D80D58E289E89D4008DE598 /* Icon.swift in Sources */,
 				9D80D58A289E5969008DE598 /* AtomicUI.swift in Sources */,
 				9D80D579289E4A50008DE598 /* ContentView.swift in Sources */,
 				9D80D58C289E68A9008DE598 /* Font.swift in Sources */,
