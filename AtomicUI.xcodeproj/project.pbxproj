@@ -17,6 +17,8 @@
 		9D80D58E289E89D4008DE598 /* Icon.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D80D58D289E89D4008DE598 /* Icon.swift */; };
 		9D80D591289E8EE8008DE598 /* Icons.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D80D590289E8EE8008DE598 /* Icons.xcassets */; };
 		9DBE86D828A134EC008F1D23 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBE86D728A134EC008F1D23 /* TextView.swift */; };
+		9DBE86DA28A2918E008F1D23 /* IconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBE86D928A2918E008F1D23 /* IconView.swift */; };
+		9DBE86DD28A292A3008F1D23 /* IconSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBE86DC28A292A3008F1D23 /* IconSize.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +33,8 @@
 		9D80D58D289E89D4008DE598 /* Icon.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Icon.swift; sourceTree = "<group>"; };
 		9D80D590289E8EE8008DE598 /* Icons.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Icons.xcassets; sourceTree = "<group>"; };
 		9DBE86D728A134EC008F1D23 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
+		9DBE86D928A2918E008F1D23 /* IconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconView.swift; sourceTree = "<group>"; };
+		9DBE86DC28A292A3008F1D23 /* IconSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconSize.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +101,7 @@
 				9D80D587289E5671008DE598 /* Color.swift */,
 				9D80D58B289E68A9008DE598 /* Font.swift */,
 				9D80D58D289E89D4008DE598 /* Icon.swift */,
+				9DBE86DB28A29297008F1D23 /* Layout */,
 			);
 			path = Foundation;
 			sourceTree = "<group>";
@@ -113,8 +118,17 @@
 			isa = PBXGroup;
 			children = (
 				9DBE86D728A134EC008F1D23 /* TextView.swift */,
+				9DBE86D928A2918E008F1D23 /* IconView.swift */,
 			);
 			path = Atoms;
+			sourceTree = "<group>";
+		};
+		9DBE86DB28A29297008F1D23 /* Layout */ = {
+			isa = PBXGroup;
+			children = (
+				9DBE86DC28A292A3008F1D23 /* IconSize.swift */,
+			);
+			path = Layout;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -188,11 +202,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DBE86DD28A292A3008F1D23 /* IconSize.swift in Sources */,
 				9D80D58E289E89D4008DE598 /* Icon.swift in Sources */,
 				9D80D58A289E5969008DE598 /* AtomicUI.swift in Sources */,
 				9D80D579289E4A50008DE598 /* ContentView.swift in Sources */,
 				9DBE86D828A134EC008F1D23 /* TextView.swift in Sources */,
 				9D80D58C289E68A9008DE598 /* Font.swift in Sources */,
+				9DBE86DA28A2918E008F1D23 /* IconView.swift in Sources */,
 				9D80D577289E4A50008DE598 /* AtomicUIApp.swift in Sources */,
 				9D80D588289E5671008DE598 /* Color.swift in Sources */,
 			);
