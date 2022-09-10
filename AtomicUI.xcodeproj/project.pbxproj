@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9D23B68B28CB8A510009D349 /* Spacing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D23B68A28CB8A510009D349 /* Spacing.swift */; };
+		9D23B68E28CC61350009D349 /* BorderWidth.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D23B68D28CC61350009D349 /* BorderWidth.swift */; };
 		9D80D577289E4A50008DE598 /* AtomicUIApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D80D576289E4A50008DE598 /* AtomicUIApp.swift */; };
 		9D80D579289E4A50008DE598 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9D80D578289E4A50008DE598 /* ContentView.swift */; };
 		9D80D57B289E4A52008DE598 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9D80D57A289E4A52008DE598 /* Assets.xcassets */; };
@@ -19,9 +21,12 @@
 		9DBE86D828A134EC008F1D23 /* TextView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBE86D728A134EC008F1D23 /* TextView.swift */; };
 		9DBE86DA28A2918E008F1D23 /* IconView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBE86D928A2918E008F1D23 /* IconView.swift */; };
 		9DBE86DD28A292A3008F1D23 /* IconSize.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DBE86DC28A292A3008F1D23 /* IconSize.swift */; };
+		9DDD29E728A8E5C900071AC3 /* Button.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DDD29E628A8E5C900071AC3 /* Button.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9D23B68A28CB8A510009D349 /* Spacing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Spacing.swift; sourceTree = "<group>"; };
+		9D23B68D28CC61350009D349 /* BorderWidth.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BorderWidth.swift; sourceTree = "<group>"; };
 		9D80D573289E4A50008DE598 /* AtomicUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AtomicUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9D80D576289E4A50008DE598 /* AtomicUIApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AtomicUIApp.swift; sourceTree = "<group>"; };
 		9D80D578289E4A50008DE598 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -35,6 +40,7 @@
 		9DBE86D728A134EC008F1D23 /* TextView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TextView.swift; sourceTree = "<group>"; };
 		9DBE86D928A2918E008F1D23 /* IconView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconView.swift; sourceTree = "<group>"; };
 		9DBE86DC28A292A3008F1D23 /* IconSize.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IconSize.swift; sourceTree = "<group>"; };
+		9DDD29E628A8E5C900071AC3 /* Button.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Button.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -48,6 +54,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		9D23B68C28CC61240009D349 /* Border */ = {
+			isa = PBXGroup;
+			children = (
+				9D23B68D28CC61350009D349 /* BorderWidth.swift */,
+			);
+			path = Border;
+			sourceTree = "<group>";
+		};
 		9D80D56A289E4A50008DE598 = {
 			isa = PBXGroup;
 			children = (
@@ -101,6 +115,7 @@
 				9D80D587289E5671008DE598 /* Color.swift */,
 				9D80D58B289E68A9008DE598 /* Font.swift */,
 				9D80D58D289E89D4008DE598 /* Icon.swift */,
+				9D23B68C28CC61240009D349 /* Border */,
 				9DBE86DB28A29297008F1D23 /* Layout */,
 			);
 			path = Foundation;
@@ -119,6 +134,7 @@
 			children = (
 				9DBE86D728A134EC008F1D23 /* TextView.swift */,
 				9DBE86D928A2918E008F1D23 /* IconView.swift */,
+				9DDD29E628A8E5C900071AC3 /* Button.swift */,
 			);
 			path = Atoms;
 			sourceTree = "<group>";
@@ -126,6 +142,7 @@
 		9DBE86DB28A29297008F1D23 /* Layout */ = {
 			isa = PBXGroup;
 			children = (
+				9D23B68A28CB8A510009D349 /* Spacing.swift */,
 				9DBE86DC28A292A3008F1D23 /* IconSize.swift */,
 			);
 			path = Layout;
@@ -203,10 +220,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				9DBE86DD28A292A3008F1D23 /* IconSize.swift in Sources */,
+				9D23B68B28CB8A510009D349 /* Spacing.swift in Sources */,
+				9D23B68E28CC61350009D349 /* BorderWidth.swift in Sources */,
 				9D80D58E289E89D4008DE598 /* Icon.swift in Sources */,
 				9D80D58A289E5969008DE598 /* AtomicUI.swift in Sources */,
 				9D80D579289E4A50008DE598 /* ContentView.swift in Sources */,
 				9DBE86D828A134EC008F1D23 /* TextView.swift in Sources */,
+				9DDD29E728A8E5C900071AC3 /* Button.swift in Sources */,
 				9D80D58C289E68A9008DE598 /* Font.swift in Sources */,
 				9DBE86DA28A2918E008F1D23 /* IconView.swift in Sources */,
 				9D80D577289E4A50008DE598 /* AtomicUIApp.swift in Sources */,

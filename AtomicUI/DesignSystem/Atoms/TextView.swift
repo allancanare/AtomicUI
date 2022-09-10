@@ -109,8 +109,16 @@ extension AtomicUI.TextView {
         // Action - Medium - Highlight
         static let actionMediumHighlightDarkest = Style(font: .actionMedium,
                                                         color: .highlightDarkest)
+        static let actionMediumHighlightDark = Style(font: .actionMedium,
+                                                     color: .highlightDark)
+        static let actionMediumHighlightMedium = Style(font: .actionMedium,
+                                                       color: .highlightMedium)
         
         // Action - Medium - Light Gray
+        static let actionMediumLightGrayMedium = Style(font: .actionMedium,
+                                                       color: .lightGrayMedium)
+        static let actionMediumLightGrayLight = Style(font: .actionMedium,
+                                                      color: .lightGrayLight)
         static let actionMediumLightGrayLightest = Style(font: .actionMedium,
                                                          color: .lightGrayLightest)
         

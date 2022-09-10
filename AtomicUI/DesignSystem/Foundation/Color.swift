@@ -18,6 +18,7 @@ extension AtomicUI {
         
         // light gray
         case lightGrayDarkest
+        case lightGrayDarkest10
         case lightGrayDark
         case lightGrayMedium
         case lightGrayLight
@@ -44,6 +45,9 @@ extension AtomicUI {
         case errorDark
         case errorMedium
         case errorLight
+        
+        // others
+        case clear
     }
 }
 
@@ -62,6 +66,8 @@ extension AtomicUI.Color {
             return .init(hex: 0xEAF2FF)
         case .lightGrayDarkest:
             return .init(hex: 0xC5C6CC)
+        case .lightGrayDarkest10:
+            return AtomicUI.Color.lightGrayDarkest.value.opacity(0.1)
         case .lightGrayDark:
             return .init(hex: 0xD4D6DD)
         case .lightGrayMedium:
@@ -98,6 +104,8 @@ extension AtomicUI.Color {
             return .init(hex: 0xFF616D)
         case .errorLight:
             return .init(hex: 0xFFE2E5)
+        case .clear:
+            return .clear
         }
     }
 }
@@ -127,6 +135,8 @@ extension AtomicUI.Color: CustomDebugStringConvertible {
             return "Highlight Lightest"
         case .lightGrayDarkest:
             return "Light Gray Darkest"
+        case .lightGrayDarkest10:
+            return "Light Gray Darkest 10"
         case .lightGrayDark:
             return "Light Gray Dark"
         case .lightGrayMedium:
@@ -163,6 +173,8 @@ extension AtomicUI.Color: CustomDebugStringConvertible {
             return "Error Medium"
         case .errorLight:
             return "Error Light"
+        case .clear:
+            return "Clear"
         }
     }
 }

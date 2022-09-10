@@ -74,10 +74,18 @@ extension AtomicUI.IconView {
         // Small 12 - Highlight
         static let smallHighlightDarkest = Style(size: .small,
                                                  color: .highlightDarkest)
+        static let smallHighlightDark = Style(size: .small,
+                                              color: .highlightDark)
+        static let smallHighlightMedium = Style(size: .small,
+                                                color: .highlightMedium)
         
         // Small 12 - Light Gray
         static let smallLightGrayDarkest = Style(size: .small,
                                                  color: .lightGrayDarkest)
+        static let smallLightGrayMedium = Style(size: .small,
+                                                color: .lightGrayMedium)
+        static let smallLightGrayLight = Style(size: .small,
+                                               color: .lightGrayLight)
         static let smallLightGrayLightest = Style(size: .small,
                                                   color: .lightGrayLightest)
         
